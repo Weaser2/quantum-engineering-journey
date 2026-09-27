@@ -1,0 +1,12 @@
+import numpy as np
+a = np.array([2,4,1])
+b = np.array([5,1,3])
+print(a+b)
+print(a-b)
+print(np.dot(a,b))
+magnitude1 = np.linalg.norm(a)
+magnitude2 = np.linalg.norm(b)
+print(magnitude1)
+print(magnitude2)
+print(f'Magnitude of normalized a: {a/magnitude1}')
+print(f'Magnitude of normalized b: {b/magnitude2}')
